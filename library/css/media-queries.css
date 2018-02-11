@@ -1,0 +1,382 @@
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .content {
+      flex-direction:column;
+    }
+    .content .podcast-data {
+      display: block !important;
+      padding: 1rem 1rem 2rem 1rem !important;
+      width: 100vw !important;
+      height: 500px !important;
+      order: 2;
+    }
+    .content .podcast-player {
+      display: block !important;
+      padding: 1rem 1rem 2rem 1rem !important;
+      width: 100vw !important;
+      height: 500px !important;
+      order: 1;
+    }
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .content {
+      flex-direction:column;
+    }
+    .content .podcast-data {
+      display: block !important;
+      padding: 1rem 1rem 2rem 1rem !important;
+      width: 100vw !important;
+      height: 500px !important;
+      order: 2;
+    }
+    .content .podcast-player {
+      display: block !important;
+      padding: 1rem 1rem 2rem 1rem !important;
+      width: 100vw !important;
+      height: 500px !important;
+      order: 1;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .content {
+      flex-direction:column;
+    }
+    .content .podcast-data {
+      display: block !important;
+      padding: 1rem 1rem 2rem 1rem !important;
+      width: 100vw !important;
+      height: 500px !important;
+      order: 2;
+    }
+    .content .podcast-player {
+      display: block !important;
+      padding: 1rem 1rem 2rem 1rem !important;
+      width: 100vw !important;
+      height: 500px !important;
+      order: 1;
+    }
+
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .content {
+      flex-direction:column;
+    }
+    .content .podcast-data {
+      display: block !important;
+      padding: 1rem 1rem 2rem 1rem !important;
+      width: 100vw !important;
+      height: 500px !important;
+      order: 2;
+    }
+    .content .podcast-player {
+      display: block !important;
+      padding: 1rem 1rem 2rem 1rem !important;
+      width: 100vw !important;
+      height: 500px !important;
+      order: 1;
+    }
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .content {
+      flex-direction:column;
+    }
+    .content .podcast-data {
+      display: block !important;
+      padding: 1rem 1rem 2rem 1rem !important;
+      width: 100vw !important;
+      height: 500px !important;
+      order: 2;
+    }
+    .content .podcast-player {
+      display: block !important;
+      padding: 1rem 1rem 2rem 1rem !important;
+      width: 100vw !important;
+      height: 500px !important;
+      order: 1;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .content {
+      flex-direction:column;
+    }
+    .content .podcast-data {
+      display: block !important;
+      padding: 1rem 1rem 2rem 1rem !important;
+      width: 100vw !important;
+      height: 500px !important;
+      order: 2;
+    }
+    .content .podcast-player {
+      display: block !important;
+      padding: 1rem 1rem 2rem 1rem !important;
+      width: 100vw !important;
+      height: 500px !important;
+      order: 1;
+    }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .content {
+      flex-direction:column;
+    }
+    .content .podcast-data {
+      display: block !important;
+      padding: 1rem 1rem 2rem 1rem !important;
+      width: 100vw !important;
+      height: 500px !important;
+      order: 2;
+    }
+    .content .podcast-player {
+      display: block !important;
+      padding: 1rem 1rem 2rem 1rem !important;
+      width: 100vw !important;
+      height: 500px !important;
+      order: 1;
+    }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .content {
+      flex-direction:column;
+    }
+    .content .podcast-data {
+      display: block !important;
+      padding: 1rem 1rem 2rem 1rem !important;
+      width: 100vw !important;
+      height: 500px !important;
+      order: 2;
+    }
+    .content .podcast-player {
+      display: block !important;
+      padding: 1rem 1rem 2rem 1rem !important;
+      width: 100vw !important;
+      height: 500px !important;
+      order: 1;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .content {
+      flex-direction:column;
+    }
+    .content .podcast-data {
+      display: block !important;
+      padding: 1rem 1rem 2rem 1rem !important;
+      width: 100vw !important;
+      height: 500px !important;
+      order: 2;
+    }
+    .content .podcast-player {
+      display: block !important;
+      padding: 1rem 1rem 2rem 1rem !important;
+      width: 100vw !important;
+      height: 500px !important;
+      order: 1;
+    }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .content {
+        flex-direction:column;
+    }
+    .content .podcast-data {
+      display: block !important;
+      padding: 1rem 1rem 2rem 1rem !important;
+      width: 100vw !important;
+      height: 500px !important;
+      order: 2;
+    }
+    .content .podcast-player {
+      display: block !important;
+      padding: 1rem 1rem 2rem 1rem !important;
+      width: 100vw !important;
+      height: 500px !important;
+      order: 1;
+    }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .content {
+      flex-direction:column;
+    }
+    .content .podcast-data {
+      display: block !important;
+      padding: 1rem 1rem 2rem 1rem !important;
+      width: 100vw !important;
+      height: 500px !important;
+      order: 2;
+    }
+    .content .podcast-player {
+      display: block !important;
+      padding: 1rem 1rem 2rem 1rem !important;
+      width: 100vw !important;
+      height: 500px !important;
+      order: 1;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .content {
+      flex-direction:column;
+    }
+    .content .podcast-data {
+      display: block !important;
+      padding: 1rem 1rem 2rem 1rem !important;
+      width: 100vw !important;
+      height: 500px !important;
+      order: 2;
+    }
+    .content .podcast-player {
+      display: block !important;
+      padding: 1rem 1rem 2rem 1rem !important;
+      width: 100vw !important;
+      height: 500px !important;
+      order: 1;
+    }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .content {
+      flex-direction:column;
+    }
+    .content .podcast-data {
+      display: block !important;
+      padding: 1rem 1rem 2rem 1rem !important;
+      width: 100vw !important;
+      height: 500px !important;
+      order: 2;
+    }
+    .content .podcast-player {
+      display: block !important;
+      padding: 1rem 1rem 2rem 1rem !important;
+      width: 100vw !important;
+      height: 500px !important;
+      order: 1;
+    }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .content {
+      flex-direction:column;
+    }
+    .content .podcast-data {
+      display: block !important;
+      padding: 1rem 1rem 2rem 1rem !important;
+      width: 100vw !important;
+      height: 500px !important;
+      order: 2;
+    }
+    .content .podcast-player {
+      display: block !important;
+      padding: 1rem 1rem 2rem 1rem !important;
+      width: 100vw !important;
+      height: 500px !important;
+      order: 1;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .content {
+      flex-direction:column;
+    }
+    .content .podcast-data {
+      display: block !important;
+      padding: 1rem 1rem 2rem 1rem !important;
+      width: 100vw !important;
+      height: 500px !important;
+      order: 2;
+    }
+    .content .podcast-player {
+      display: block !important;
+      padding: 1rem 1rem 2rem 1rem !important;
+      width: 100vw !important;
+      height: 500px !important;
+      order: 1;
+    }
+}

@@ -1,0 +1,292 @@
+/******************************************************************
+Site Name: Reggae Podcast Theme
+Author: Tim Smith
+
+Stylesheet: Home Page Stylesheet
+
+******************************************************************/
+
+.content {
+  color: orange;
+	display: flex;
+	flex-direction: column;
+  padding-top: 42px;
+  /* height: calc(100vh - 60px); */
+}
+
+.content .podcast {
+  height: 80vh;
+	width: 100%;
+	display: flex;
+	/* flex-wrap: wrap; */
+  background: url("https://cdn-images-1.medium.com/max/2000/1*4bIW2T_lzcV7MqBwO55OYA.jpeg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.content .podcast:before {
+  content: "";
+  position: absolute;
+  top: 42px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: inherit;
+  background: rgb(193,60,27); /* Old browsers */
+  background: -moz-linear-gradient(-45deg, rgba(193,60,27,1) 0%, rgba(193,193,25,1) 50%, rgba(29,170,17,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, rgba(193,60,27,1) 0%,rgba(193,193,25,1) 50%,rgba(29,170,17,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, rgba(193,60,27,1) 0%,rgba(193,193,25,1) 50%,rgba(29,170,17,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c13c1b', endColorstr='#1daa11',GradientType=1 );
+  opacity: 0.3;
+}
+
+.content .podcast .podcast-data {
+  width: 50vw;
+  height: 100%;
+  padding: 1rem;
+  margin: 0;  
+  background-color: rgba(82, 53, 16, 0.4);
+  z-index: 10;
+  box-sizing: border-box;
+}
+.content .podcast .podcast-data h1 {
+  font-family: "Keania One", cursive;
+	font-size: 2rem;
+	padding: 0.5rem 0 1.5rem 0;
+}
+.content .podcast .podcast-data p {
+	font-size: 1.2rem;
+	margin-bottom: 0.5rem;
+}
+
+
+.content .podcast .podcast-player {
+	width: 50vw;
+	padding: 1rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.25);
+  z-index: 10;
+}
+
+.content .podcast .podcast-player .powerpress_links {
+	width: 60%;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding: 5px 0 10px 0;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content .podcast .podcast-player .powerpress_links a {
+	cursor: pointer;
+	color: #fff;
+	text-decoration: #fff;
+	border-bottom: #fff dotted 1px;
+}
+
+.content .podcast .podcast-player .featured-post-image {
+	width: 400px;
+	height: 300px;
+	margin: 1rem;
+}
+
+.content .related-content {
+	display: flex;
+}
+
+.content .related-content .lower-home-page-left {
+	width: 50vw;
+	color: #fff;
+	padding: 2rem 1rem;
+	background-color: rgb(126, 40, 18);
+}
+
+.content .related-content  .lower-home-page-right {
+	width: 50vw;
+	color: #fff;
+	padding: 2rem 1rem;
+	background-color: rgb(21, 106, 14);
+}
+
+.content .related-content .lower-home-page-left a,
+.content .related-content .lower-home-page-right a {
+	cursor: pointer;
+	color: #fff;
+	text-decoration: #fff;
+	border-bottom: #fff dotted 1px;
+}
+
+
+
+.content .podcast-player .mejs-audio {
+  width: 75% !important;
+  margin: 0 auto;
+  z-index: 99;
+}
+
+.mejs-container {
+	background: #000;
+	font-family: Helvetica, Arial;
+	text-align: left;
+	vertical-align: top;
+	text-indent: 0;
+	width: 100% !important;
+	height: 50px !important;
+	border-radius: 5px;
+}
+
+.mejs-container .mejs-controls {
+	height: 100%;
+	background: transparent;
+	display: flex;
+}
+
+.mejs-controls .mejs-time-rail span,
+.mejs-controls .mejs-time-rail a {
+	display: block;
+	width: 180px;
+	height: 100%;
+	border-radius: 0px;
+	cursor: pointer;
+}
+
+.mejs-controls div.mejs-time-rail {
+	padding-top: initial;
+	height: 100%;
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-total {
+	margin: 0
+}
+
+.mejs-container .mejs-controls .mejs-time {
+	color: #fff;
+	display: block;
+	height: 27px;
+	width: auto;
+	padding: 0;
+	line-height: 25px;
+	overflow: hidden;
+	text-align: center;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+.mejs-container .mejs-controls .mejs-time {
+	position: absolute;
+	color: rgba(256, 256, 256, 0.3);
+	right: 10px;
+	bottom: 0;
+	top: 0;
+	margin: auto;
+	font-family: 'Lato';
+	font-size: 32px;
+	pointer-events: none;
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-float-corner {
+	display: none;
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-float {
+	position: absolute;
+	background: #000;
+	width: 46px;
+	height: 20px;
+	border: none;
+	top: -25px;
+	margin-left: -18px;
+	text-align: center;
+	color: #fff;
+	border-radius: 3px;
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-float-current {
+	margin: 0;
+	margin-top: 4px;
+	width: 100%;
+	display: block;
+	text-align: center;
+	left: 0;
+}
+
+.mejs-container .mejs-controls div {
+	height: 100%;
+	width: 50px;
+	position: relative;
+}
+
+.mejs-controls .mejs-button button {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	border: 0 !important;
+	background: transparent;
+	outline: none;
+}
+
+.mejs-controls .mejs-play:after {
+	position: absolute;
+	content: "";
+	background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/163884/play.svg) no-repeat;
+	width: 17px;
+	height: 22px;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	transition: all 100ms linear;
+	pointer-events: none;
+}
+
+.mejs-controls .mejs-pause:after {
+	position: absolute;
+	content: "";
+	background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/163884/pause.svg) no-repeat;
+	width: 13px;
+	height: 22px;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	transition: all 100ms linear;
+	pointer-events: none;
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-total {
+	background: #292929;
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-loaded {
+	background: #3c3838;
+	background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent), to(transparent));
+	background-image: -moz-linear-gradient( -45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+	background-size: 50px 50px;
+	animation: move 3s linear infinite;
+	opacity: 0.1;
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-current {
+	background: linear-gradient(to right, #03A9F4, #ff00ff);
+}
+
+.mejs-controls .mejs-button button:focus {
+	outline: none;
+}
+
+@-webkit-keyframes move {
+	0% {
+		background-position: 0 0;
+	}
+	100% {
+		background-position: 50px 50px;
+	}
+}

@@ -1,0 +1,27 @@
+/******************************************************************
+Site Name: Reggae Podcast Theme
+Author: Tim Smith
+
+Stylesheet: Main Stylesheet
+
+******************************************************************/
+/**
+ *
+ *  My Imports
+ *
+ **/
+
+ 
+
+@import url("https://meyerweb.com/eric/tools/css/reset/reset.css");
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One|Keania+One");
+@import url("nav-home-styles.css");
+@import url("home-content-styles.css");
+@import url("media-queries.css");
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
