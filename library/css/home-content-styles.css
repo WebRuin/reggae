@@ -5,7 +5,15 @@ Author: Tim Smith
 Stylesheet: Home Page Stylesheet
 
 ******************************************************************/
-
+body {
+  height: 100vh;
+	width: 100vw;
+  background: url("../images/20160324_100906.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .content {
   color: orange;
 	display: flex;
@@ -19,7 +27,7 @@ Stylesheet: Home Page Stylesheet
 	width: 100%;
 	display: flex;
 	/* flex-wrap: wrap; */
-  background: url("https://cdn-images-1.medium.com/max/2000/1*4bIW2T_lzcV7MqBwO55OYA.jpeg");
+  /* background: url("../images/20160324_100906.jpg"); */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
